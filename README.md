@@ -5,9 +5,13 @@ Testing Data
 Pozitivní testy (platný emaily)
 
 x@e.cz
+
 test@gmail.chucknorris
+
 beznyemail@seznam.cz
+
 Abc\@def@example.com
+
 Fred\ Bloggs@example.com
 user+mailbox@example.com
 !#$%&'*+-/=?^_`.{|}~@seznam.cz
