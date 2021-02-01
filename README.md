@@ -1,9 +1,9 @@
 # TestData
 
 
-##Testing Data - Email
+## Testing Data - Email
 
-######Popis a zdroje
+###### Popis a zdroje
 *zdroje RFC
 *https://en.wikipedia.org/wiki/Email_address
 *RFC 3696: https://tools.ietf.org/html/rfc3696
@@ -17,7 +17,7 @@
 **63 znaků
 
 
-######Pozitivní testy (platný emaily)
+###### Pozitivní testy (platný emaily)
 ```
 x@e.cz
 test@gmail.chucknorris
@@ -48,7 +48,7 @@ me(this is a comment)@example.com
 comments are discouraged but not prohibited by RFC2822.
 ```
 
-######Negativní testy
+###### Negativní testy
 ```
 [prázdné pole]
 spatnyemailseznam.cz
