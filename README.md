@@ -3,15 +3,11 @@ Testing Data
 
 
 Pozitivní testy (platný emaily)
-
+```
 x@e.cz
-
 test@gmail.chucknorris
-
 beznyemail@seznam.cz
-
 Abc\@def@example.com
-
 Fred\ Bloggs@example.com
 user+mailbox@example.com
 !#$%&'*+-/=?^_`.{|}~@seznam.cz
@@ -24,8 +20,8 @@ test@DcS5Ce1wUj0Pfvo5CAgiVh4gBHc8yUp0MnwbvuemgUzbb00aonBnmOgE3Xn7WHIZlcoutniv2O5
 email@example.com.au
 mail@neco.example.com
 mail@nic.neco.example.com
-“x@x.cz ”  (ušetřit uživatele :-) email se musí převést na email bez mezery
-
+“x@x.cz ”
+```
 
 me@example.com
 a.nonymous@example.com
