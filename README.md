@@ -4,17 +4,17 @@
 ## Testing Data - Email
 
 ###### Popis a zdroje
-*zdroje RFC
-*https://en.wikipedia.org/wiki/Email_address
-*RFC 3696: https://tools.ietf.org/html/rfc3696
-*RFC 5321: https://tools.ietf.org/html/rfc5321
-*RFC 5322: https://tools.ietf.org/html/rfc5322
-*RFC 6530: https://tools.ietf.org/html/rfc6530
-*List of top level domain from IANA https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-*https://cs.wikipedia.org/wiki/Seznam_internetov%C3%BDch_dom%C3%A9n_nejvy%C5%A1%C5%A1%C3%ADho_%C5%99%C3%A1du
-*https://gist.github.com/cjaoude/fd9910626629b53c4d25
-*Jaká je max velikost domény 1. řádu?
-**63 znaků
+* zdroje RFC
+* https://en.wikipedia.org/wiki/Email_address
+* RFC 3696: https://tools.ietf.org/html/rfc3696
+* RFC 5321: https://tools.ietf.org/html/rfc5321
+* RFC 5322: https://tools.ietf.org/html/rfc5322
+* RFC 6530: https://tools.ietf.org/html/rfc6530
+* List of top level domain from IANA https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+* https://cs.wikipedia.org/wiki/Seznam_internetov%C3%BDch_dom%C3%A9n_nejvy%C5%A1%C5%A1%C3%ADho_%C5%99%C3%A1du
+* https://gist.github.com/cjaoude/fd9910626629b53c4d25
+* Jaká je max velikost domény 1. řádu?
+** 63 znaků
 
 
 ###### Pozitivní testy (platný emaily)
