@@ -77,6 +77,7 @@ text=%3Cscript%3Ealert%28%22Hello%21%22%29%3B%3C%2Fscript%3E%40example.com
 * Zajímavosti názvů obcí v České republice https://www.czso.cz/csu/czso/zajimavosti_nazvu_obci_v_ceske_republice 
 
 ###### Negativní testy
+```
 [Prázdné pole]
 Počet znaků jak málo (2) tak hodně (100) - raději zkontrolovat zda 100 je OK = 48+ulice+čárkyMezery+PSČ+čísloPop
 
@@ -87,9 +88,10 @@ Znaky které se běžně nepoužívají v CZ/SR
 Üۺڲ
 Neplatná/neexistující adresa
 <script>alert("Hello!");</script>@example.com
-
+```
 
 ###### Pozitivní testy
+```
 Křenová 72, Písek, 32415
 Křenová 1295/72, Písek, 32415
 P.O.box (P. O. BOX 72) 
@@ -99,6 +101,6 @@ poštovní přihrádka 72, 273 01, KAMENNÉ ŽEHROVICE
 P. O. BOX 72, 273 01, KAMENNÉ ŽEHROVICE
 Hartmanice 1, Hartmanice 34201
 Hartmanice 1, Hartmanice 56992
-
+```
 
 
