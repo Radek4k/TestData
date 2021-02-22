@@ -79,14 +79,13 @@ text=%3Cscript%3Ealert%28%22Hello%21%22%29%3B%3C%2Fscript%3E%40example.com
 ###### Negativní testy
 ```
 [Prázdné pole]
-Počet znaků jak málo (2) tak hodně (100) - raději zkontrolovat zda 100 je OK = 48+ulice+čárkyMezery+PSČ+čísloPop
-
+Počet znaků jak málo (2) tak hodně (100) - raději zkontrolovat zda 100 je OK = 48+ulice+čárkyMezery+PSČ+čísloPop /TODO převést na dat/
 Specialny znaky (@,#,$,%), Unicode characters 🦄
 🦄 42, Liberec 460 01
 Na konci vesmíru 42, 🦄 460 01
 Znaky které se běžně nepoužívají v CZ/SR
 Üۺڲ
-Neplatná/neexistující adresa
+Neplatná/neexistující adresa /TODO převést na dat/
 <script>alert("Hello!");</script>@example.com
 ```
 
