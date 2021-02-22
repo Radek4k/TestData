@@ -1,7 +1,7 @@
 # TestData
 
 
-## Testing Data - Email
+## Testovací data - Email
 
 
 ###### Popis a zdroje
@@ -69,7 +69,7 @@ x@x     .cz (zkusit neviditelné znaky)
 text=%3Cscript%3Ealert%28%22Hello%21%22%29%3B%3C%2Fscript%3E%40example.com
 ```
 
-## Testing Data - Adresa (ČR+SR)
+## Testovací data - Adresa (ČR+SR)
 ###### Popis a zdroje
 * https://cs.wikipedia.org/wiki/Ozna%C4%8Dov%C3%A1n%C3%AD_ulic_a_ve%C5%99ejn%C3%BDch_prostranstv%C3%AD
 * číslo domu - popisné, orientační, evidenční https://www.katastr365.cz/aktuality/blog/domovni-cisla/#:~:text=Popisn%C3%A9%20%C4%8D%C3%ADslo%20d%C5%AFm%20popisuje%2C%20je,a%20zanik%C3%A1%20s%20existenc%C3%AD%20nemovitosti.
