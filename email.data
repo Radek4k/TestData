@@ -1,0 +1,65 @@
+POSITIVE standart (must passed)
+----------------------
+
+x@e.cz
+test@gmail.chucknorris
+test@eeee.museum
+beznyemail@seznam.cz
+test@DcS5Ce1wUj0Pfvo5CAgiVh4gBHc8yUp0MnwbvuemgUzbb00aonBnmOgE3Xn7WHIZlcoutniv2O5A7w1fzuJDcJ6gZQL8012OCqdislZj1v0uIzKUtrgP95aRpPuU9IVEF6nlBY0QssQetFxF4mbocgiKcEutWdGYWnB6YzgUQ69Bw89Yo4EjbSeROWS8GHwFqfZLxgWk5uJiQnIIG1cBfsSxPIccF3govaXeGXZ3NA7bkeQu1mrOkqQo.museum
+email@example.com.au
+mail@neco.example.com
+mail@nic.neco.example.com
+me@example.com
+a.nonymous@example.com
+testmail@háčkyčárky.cz
+
+
+
+POSITIVE Not tipical but allowd by RFC2822
+--------------------------------
+_somename@example.com
+$A12345@example.com
+!def!xyz%abc@example.com
+“x@x.cz ”
+name+tag@example.com
+name\@tag@example.com – this is a valid email address containing two @ symbols.
+spaces\ are\ allowed@example.com
+"spaces may be quoted"@example.com
+!#$%&'*+-/=.?^_`{|}~@[1.0.0.127]
+!#$%&'*+-/=.?^_`{|}~@[IPv6:0123:4567:89AB:CDEF:0123:4567:89AB:CDEF]
+Abc\@def@example.com
+Fred\ Bloggs@example.com
+user+mailbox@example.com
+!#$%&'*+-/=?^_`.{|}~@seznam.cz
+me(this is a comment)@example.com
+customer/department=shipping@example.com
+
+
+
+DONT KNOW
+---------
+ěščřžýáíéúů@háčkyčárky.cz
+ěščřžýáíéúů@ěščřžýáíéúů.cz
+
+
+
+
+NEGATIVE
+--------
+
+[prázdné pole]
+spatnyemailseznam.cz
+x@.cz
+x@e.z
+x@e.
+@e.cz
+x@.cz
+x@gmail.com, x+1@gmail.com, x+2@gmail.com, x+test@gmail.com
+x@xcz
+x    @x.cz
+x@x .cz
+x@x     .cz (zkusit neviditelné znaky)
+🦄@e.cz (nepovolené znaky)
+<script>alert("Hello!");</script>@example.com
+text=%3Cscript%3Ealert%28%22Hello%21%22%29%3B%3C%2Fscript%3E%40example.com
+
