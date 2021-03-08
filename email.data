@@ -1,5 +1,5 @@
-POSITIVE standart (must passed)
-----------------------
+Standartní pozitivní testy (musí projít na všech systémech)
+-----------------------------------------------------------
 
 x@e.cz
 test@gmail.chucknorris
@@ -19,8 +19,8 @@ nejdelší možná doména prvního řádu
 
 
 
-POSITIVE Not tipical but allowd by RFC2822
---------------------------------
+Pozitvní testy podle normy RFC2822, nekteré systémy nepodporují
+---------------------------------------------------------------
 _somename@example.com
 $A12345@example.com
 !def!xyz%abc@example.com
@@ -40,17 +40,15 @@ customer/department=shipping@example.com
 
 
 
-DONT KNOW
----------
+Zatím nevím jestli jde o správná data, Pokud víte napište na org-brno@kitner.cz
+-------------------------------------------------------------------------------
 ěščřžýáíéúů@háčkyčárky.cz
 ěščřžýáíéúů@ěščřžýáíéúů.cz
 
 
 
-
-NEGATIVE
---------
-
+Negatiní testy (nesmí projít)
+-----------------------------
 [prázdné pole]
 spatnyemailseznam.cz
 x@.cz
