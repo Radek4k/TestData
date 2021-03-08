@@ -2,15 +2,31 @@ Rodné číslo
 -----------
 
 
-
 Pozitivní testy
 ---------------
-
-
-
+801201/8717 (muž narozen 1.12.1980)
+105202/1717 (žena narozena 2.2.2010)
+105202/040 (žena narozena 2.2.1910)
+XXXXXX/XXX (před rokem 54)
 
 
 
 Negativní testy
 ---------------
+801201/8712 (není dělitelné 11, upozornění na chybu)
+
+
+Popis a zdroje
+---------------
+Rodné číslo se skládá z devíti nebo deseti číslic. Prvních šest číslic popisuje datum narození ve formátu rrmmdd, tj. po dvou číslicích pro rok, měsíc a den narození.
+Např. 701020 označuje datum narození 20. října 1970. Přitom ženy mají k měsíci narození připočteno 50 (tzn. 706020 označuje ženu narozenou 20. října 1970). Od roku 2004
+(zákonem č. 53/2004 Sb.) je navíc zavedena možnost v případě, že jsou v některý den vyčerpána všechna platná čtyřčíslí, použít alternativní rodné číslo, kde se k číslu 
+měsíce přičte ještě 20 (u žen tedy celkem 70).
+
+má 10 čísel (bez lomítka) a musí být dělitelné 11 (od roku 1954)
+má 9 čísel (do roku 1953)
+
+zdroje:
+https://cs.wikipedia.org/wiki/Rodn%C3%A9_%C4%8D%C3%ADslo
+https://lorenc.info/3MA381/overeni-spravnosti-rodneho-cisla.htm
 
