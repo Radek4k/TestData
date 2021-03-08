@@ -34,6 +34,36 @@ Neplatná/neexistující adresa /TODO převést na dat/
 Testovací data - Adresa (ČR+SR) více řádkové
 --------------------------------------------
 
+Pozitivní testy
+---------------
+Ulice: 
+Křenová
+Nám. Někoho Slavného
+U dubu
+
+Číslo popisné: 
+72
+72b
+
+Číslo orientační: 
+72a
+
+Město: 
+Písek
+
+PSČ: 
+32415
+
+Negativní testy
+---------------
+Prázdné pole (u každého)
+Počet znaků jak málo (2) tak hodně (49) - ulice, město
+Ulice: A 11 Město: C Psč: 1AB45
+Specialny znaky (@,#,$,%), , Unicode characters 🦄
+ne-číslo - číslo p,ev.,or , PSČ
+Specialny znaky (@,#,$,%,.) - číslo p,ev.,or , PSČ
+
+
 
 
 
