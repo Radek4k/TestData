@@ -2,7 +2,8 @@
 
 
 ## Testovací data - Email
-
+Data v textové podobě
+https://github.com/Radek4k/TestData/blob/main/adresa.data
 
 ###### Popis a zdroje
 * zdroje RFC
