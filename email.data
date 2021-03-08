@@ -9,13 +9,20 @@ test@DcS5Ce1wUj0Pfvo5CAgiVh4gBHc8yUp0MnwbvuemgUzbb00aonBnmOgE3Xn7WHIZlcoutniv2O5
 email@example.com.au
 mail@neco.example.com
 mail@nic.neco.example.com
-me@example.com
 a.nonymous@example.com
 testmail@háčkyčárky.cz
 
+
 **** chronologický popis jednotlivých řádků ****
 nejmenší možná adresa
-nejdelší možná doména prvního řádu
+nejdelší možná platná doména prvního řádu
+bežný email
+nejdelší možná doména 2. řádu
+dvojtá doména prvního řádu
+email s doménou 3. řádu
+email s doménou 4. řádu
+email s tečkoou ve jménu
+email s českou diakritikou u domény 2. řádu
 
 
 
