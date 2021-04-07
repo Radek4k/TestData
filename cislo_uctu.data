@@ -1,0 +1,41 @@
+Číslo účtu
+----------
+
+Pozitivní testy
+---------------
+19/0100
+123457/5400
+1372512028/3030
+19-1111111111/0300
+123457-19/2010
+
+
+Negativní testy
+---------------
+_
+‘
+ahoj
+13725a12028/3030
+1372512028/3a30
+1a9-1111111111/0300
+000000-19/0600   (schází modulo 11 pro předčíslí)
+19-45646546/0600 (schází modulo 11 pro základní část)
+1372512028/123
+1372512028/12345
+1372512028/1234  (neexistují kód banky)
+<script>alert("Hello!");</script>@example.com
+19/1111111111-0300
+
+
+Popis a zdroje
+--------------
+https://www.moneta.cz/caste-dotazy/odpoved/co-je-cislo-uctu-
+https://www.zakonyprolidi.cz/cs/2004-62
+https://www.financnivzdelavani.cz/svet-financi/platebni-sluzby/cislo-uctu
+cislo uctu: http://www.zlatakoruna.info/zpravy/ucty/cislo-uctu-v-cr
+https://www.toplinks.cz/kontrola-cisla-uctu-modulo-11
+
+Zadavat:pouze 8-10-ti místné číslo
+10-ti místné číslo účtu nesmí začínat čísly 1 nebo 2
+9-ti místné číslo nesmí začínat čísly 9 nebo 19
+musí vyhovovat podmínkám České národní banky – Modulo 11
