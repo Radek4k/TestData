@@ -1,0 +1,40 @@
+Platební karta
+--------------
+
+
+Pozitivní testy (číslo karty	expirace	CVV kód)
+------------------------------------------------
+4263982640269299	02/2023	837
+374245455400126	01/2025	123
+60115564485789458	12/2023	458
+4263982640269299	02/2023	8374  (musí projít i 4 místný CVV)
+
+
+Negativní testy
+---------------
+_
+‘
+ahoj
+4263982640269299	02/2020	837   (stará expirace)
+426a982640269299	02/2023	837
+4263982640269299	02/2a23	837
+4263982640269299	02/2023	8a7
+4263982640269299	0a/2023	837
+371449635398432	03/2023	123  (nevalidní číslo karty)
+4263982640269299	02/2023	12
+4263982640269299	02/2023	12345
+(neplatný CVV kód)
+(platná karta, platný CVV kód, neplatná expirace)
+<script>alert("Hello!");</script>@example.com
+
+
+Popis a zdroje
+--------------
+https://www.validcreditcardnumber.com/
+http://www.kreditkar.cz/cislo-kreditni-karty/
+https://developers.bluesnap.com/docs/test-credit-cards
+https://docs.checkout.com/testing/test-card-numbers
+https://www.usetreno.cz/cislo-kreditni-karty/
+https://www.prepostseo.com/tool/cs/credit-card-generator
+Tipy na další testy
+ověření limitů karty
