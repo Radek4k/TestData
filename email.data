@@ -63,7 +63,6 @@ x@e.z
 x@e.
 @e.cz
 x@.cz
-x@gmail.com, x+1@gmail.com, x+2@gmail.com, x+test@gmail.com
 x@xcz
 x    @x.cz
 x@x .cz
@@ -72,6 +71,11 @@ x@x     .cz (zkusit neviditelné znaky)
 <script>alert("Hello!");</script>@example.com
 text=%3Cscript%3Ealert%28%22Hello%21%22%29%3B%3C%2Fscript%3E%40example.com
 
+
+
+Bonus
+-----
+Zvářit zda chcete povolit (u vaší aplikace) používání následujících adres x@gmail.com, x+1@gmail.com, x+2@gmail.com, x+test@gmail.com
 
 
 Popis a zdroje
