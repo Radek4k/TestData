@@ -22,4 +22,4 @@ https://github.com/Radek4k/TestData/blob/main/platebni_karta.data
 https://github.com/Radek4k/TestData/blob/main/telefonni_cisla.data
 
 ## IČO
-https://github.com/Radek4k/TestData/blob/main/ICO.data
+https://github.com/Radek4k/TestData/blob/main/I%C4%8CO
