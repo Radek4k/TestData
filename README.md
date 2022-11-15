@@ -20,3 +20,6 @@ https://github.com/Radek4k/TestData/blob/main/platebni_karta.data
 
 ## Telefonní čísla
 https://github.com/Radek4k/TestData/blob/main/telefonni_cisla.data
+
+## IČO
+https://github.com/Radek4k/TestData/blob/main/ICO.data
