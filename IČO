@@ -1,0 +1,37 @@
+Pozitivní testy:
+25596641
+01312774
+00213691
+00003352
+00007064 
+45806985
+47608676
+48133990
+60165171
+66003008
+68403569
+70994234
+71185232
+75010330 
+
+Negativní testy:
+_
+@
+čau
+12345678
+2*559664
+2559664
+255966410
+
+
+Popis a zdroje:
+České IČO je osmimístné číslo. Starší čísla s méně číslicemi jsou odpředu doplněna nulami. Způsob jeho tvorby stanoví podle zákona o státní statistické službě Český statistický úřad, který je také pověřen evidencí všech vydaných IČO.
+Podle § 26 zákona ČNR č. 278/1992 Sb. bylo IČO nevýznamový (pořadový) kód. Tato zmínka se již v zákoně 89/1995 Sb. nevyskytuje, ale v současné době není ani zveřejněn žádný systém, podle nějž by v čísle byl zakódován například typ subjektu nebo orgán, který číslo přidělil.
+Poslední číslice IČO je kontrolní fungující na principu dělitelnosti váženého součtu číslic jedenácti.
+
+https://cs.wikipedia.org/wiki/Identifika%C4%8Dn%C3%AD_%C4%8D%C3%ADslo_osoby
+
+
+Vyhledávání subjektů dle IČO:
+https://ares.cz/
+https://rejstrik.penize.cz/
