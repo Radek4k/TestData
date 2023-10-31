@@ -1,0 +1,19 @@
+Testovací sada dat – poštovní směrovací číslo
+  
+Předpoklady:
+  Datový typ = INT (5)
+    
+Pozitivní testy
+25241
+    
+Negativní testy
+252_41
+_25241
+25241_
+252412
+2524
+25241a
+252b1
+2524c
+d2524
+252@1
