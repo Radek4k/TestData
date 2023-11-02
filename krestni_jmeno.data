@@ -1,0 +1,70 @@
+pozitivní testy
+---------------
+Li
+Karel
+Bai Chen
+Karel H. Josué 
+Augusto de Paul Erico
+Eliška D Karolína Alžběta Julie
+JoséKarlo
+Doğan Çelik Şahin Jìng
+Helmut-Boss
+Käse
+Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+
+
+popis pozitivních testů
+-----------------------
+nejkratší možné jednotlivé křestní jméno
+běžné křestní jméno
+2 křestní jména
+3 křestní jména
+4 křestní jména
+5 křestních jmen
+2 křestní jména dohromady
+cizí abecedy
+křestní jména s pomlčkou
+přehlásky
+nejdelší možné křestní  jméno
+
+
+
+
+
+
+
+negativní testy
+---------------
+
+<nezadat nic>
+Robert
+Renata  Rút
+Robert Robert
+😛Karla
+@Petr%
+#$~^&*{}+<>[]/-<(”Hi!”)>
+Johny12431325
+Petr_Pavel!
+Иван خخ
+"Karel'; DROP TABLE Users;--"
+
+
+
+popis negativních testů
+-----------------------
+prázdné pole
+mezera před jménem
+více mezer ve jméně
+repetitivní jméno
+nepovolený znak emoji
+nepovolené speciální znaky
+nepovolené speciální znaky
+nepovolená čísla
+nepovolené znaky _!
+nepodporované abecedy
+nepovolený SQL příkaz
+
+
+
+
+
