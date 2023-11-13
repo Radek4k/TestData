@@ -16,6 +16,7 @@ negativní testy (Česko):
 7771234567
 777a23456
 777123@56
+Nenapsat nic
 
 pozitivní testy (Slovensko):
 +421910123456
@@ -37,6 +38,19 @@ negativní testy (Slovensko):
 421910123456
 421/910123456
 421-910-123-456
+
+
+
+Mezinárodní čísla
+
+00420607123456789 V případě mezinárodních čísel by povolený počet znaků by měl být 17, podle googlu je 15 nejdelší číslo celosvětově s trojmístnou předvolbou, takže ještě možnos napsat 00 místo +
+
+Negativní testy
+001234567891001245- příliš dlouhé číslo
+Jjjsjsjsjsjsjsjsjsjs - nepovolene znaky
+
+
+
 
 091012345
 09101234567
