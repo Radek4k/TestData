@@ -1,0 +1,26 @@
+Pozitivní testy
+Hu                                               krátké
+Novák                                            normální
+Modrá Nováková                                   2 příjmení
+Modrá-Nováková                                   2 příjmení s pomlčkou
+ModráNováková                                    2 příjmení spojená
+Modrá Z. Nováková                                3 příjmení s tečkou
+O'Hara                                           příjmení s apostrofem
+van den Broeck                                   3 příjmení
+Atatürk                                          přehláska
+Brzezińskimich Akbaş Aydın                       cizí abeceda
+Wolfeschlegelsteinhausenbergerdorff              nejdelší možné příjmení?
+
+Negativní testy
+" "                                              prázdné znaky
+<nic>                                            nic
+1234567                                          čísla
+1234567Novák                                     kombinace čísel a písmen
+≤`@#$~^&*{}°^<>';!"?                             speciální znaky
+Novák Novák                                      repetitivní příjmení
+Nov@k!                                           kombinace
+陈 平                                            nepodporované abecedy
+Em🙂 ji                                         Emoji
+Modrá Nováková                                   dvojmezera
+Tata__rek!                                       nepodporované znaky
+<input type="text" value="Novák"><br>            nepovolený HTML tag
