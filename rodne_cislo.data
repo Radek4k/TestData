@@ -8,12 +8,22 @@ Pozitivní testy
 105202/1717 (žena narozena 2.2.2010)
 105202/040 (žena narozena 2.2.1910)
 XXXXXX/XXX (před rokem 54)
+8012018717 (možnost zadání i bez lomítka)
 
 
 
 Negativní testy
 ---------------
 801201/8712 (není dělitelné 11, upozornění na chybu)
+80a20@/8712 (jakýkoliv jiný znak než číslice v jakékoliv pozici, upozornění na chybu)
+45120501 - (příliš krátké, upozornění na chybu)
+45120501013 (příliš dlouhé, upozornění na chybu)
+5308084596 (příliš dlouhé před rokem 1954)
+540808056 (příliš krátké po roce 1954)
+
+
+
+
 
 
 Popis a zdroje
