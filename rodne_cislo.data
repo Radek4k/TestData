@@ -44,7 +44,11 @@ měsíce přičte ještě 20 (u žen tedy celkem 70).
 má 10 čísel (bez lomítka) a musí být dělitelné 11 (od roku 1954)
 má 9 čísel (do roku 1953)
 
+Jestliže platí, že rodné číslo má devět číslic nebo platí současně, že má deset čísel a první dvě čísla jsou větší nebo rovna číslu 54, pak k prvním dvěma číslům rodného čísla přičti 1900, jinak k prvním dvěma číslům rodného čísla přičti 2000. (zdroj: https://2011-2015.isvs.cz/isdp-rodne-cislo-jako-datovy-prvek-2-dil/)
+Do roku 1985 bylo přiděleno cca 1000 rodných čísel, která nejsou dělitelná 11. Není vyloučeno, že se v minimálním počtu vyskytly i po tomto roce. (zdroj: https://phpfashion.com/cs/jak-overit-platne-ic-a-rodne-cislo)
+Generátor rodných čísel (pro účely testování): https://www.daytl.com/cs/birthnumber/
+Pozn. Validační kalkulačky nefungují správně, obsahují chyby, nedá se na ně spoléhat stoprocentně (zdroj: https://phpfashion.com/cs/jak-overit-platne-ic-a-rodne-cislo).
+
 zdroje:
 https://cs.wikipedia.org/wiki/Rodn%C3%A9_%C4%8D%C3%ADslo
-https://lorenc.info/3MA381/overeni-spravnosti-rodneho-cisla.htm
 
