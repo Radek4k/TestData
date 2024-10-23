@@ -5,23 +5,31 @@ Rodné číslo
 Pozitivní testy
 ---------------
 801201/8717 (muž narozen 1.12.1980)
-105202/1717 (žena narozena 2.2.2010)
+105819/9065 (žena narozena 19.8.2010)
 105202/040 (žena narozena 2.2.1910)
-XXXXXX/XXX (před rokem 54)
-8012018717 (možnost zadání i bez lomítka)
+460917/337 (muž narozen před rokem 54)
+460917/337 (žena narozena před rokem 54)
+505819/631 (možnost zadání i bez lomítka)
 
+3.       Zadání platných údajů v kolonce „Rodné číslo“, muž narozen před rokem 54
+Data: 460917/337
+4.       Zadání platných údajů v kolonce „Rodné číslo“, žena narozena před rokem 54
+Data: 505819/631
 
 
 Negativní testy
 ---------------
-801201/8712 (není dělitelné 11, upozornění na chybu)
-80a20@/8712 (jakýkoliv jiný znak než číslice v jakékoliv pozici, upozornění na chybu)
-45120501 - (příliš krátké, upozornění na chybu)
-45120501013 (příliš dlouhé, upozornění na chybu)
-5308084596 (příliš dlouhé před rokem 1954)
-540808056 (příliš krátké po roce 1954)
-
-
+801201/8712  (není dělitelné 11, upozornění na chybu)
+80a20@/8712  (jakýkoliv jiný znak než číslice v jakékoliv pozici, upozornění na chybu)
+45120501     (příliš krátké, upozornění na chybu)
+45120501013  (příliš dlouhé, upozornění na chybu)
+5308084596   (příliš dlouhé před rokem 1954)
+540808056    (příliš krátké po roce 1954)
+801201/8712  (muž narozen po roce 54 – číslo není dělitelné 11)
+785522/1234  (žena narozena po roce 54 – číslo není dělitelné 11)
+78<>*ě!*°$   (kombinace nepovolených znaků a čísel)
+⛴︎⚙︎⛑︎☹︎☸︎✂︎↗︎☢︎⏸︎⚠  (emotikony)
+[prázdné pole]
 
 
 
