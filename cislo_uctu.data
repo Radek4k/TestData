@@ -24,7 +24,10 @@ ahoj
 1372512028/12345
 1372512028/1234  (neexistují kód banky)
 <script>alert("Hello!");</script>@example.com
+19/0100; DROP TABLE users;
 19/1111111111-0300
+19//0100
+19--1111111111/0300
 
 
 Popis a zdroje
