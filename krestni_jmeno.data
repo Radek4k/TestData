@@ -12,6 +12,10 @@ Helmut-Boss
 Käse
 Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
 X Æ A-Xii
+D’Angelo
+María-José João-Pedro
+Jean-Paul II
+Łukasz Świętosław  
 
 
 popis pozitivních testů
@@ -28,11 +32,10 @@ křestní jména s pomlčkou
 přehlásky
 nejdelší možné křestní  jméno
 jméno dítětě Elona Muska 🙂
-
-
-
-
-
+jméno obsahující apostrof
+jméno obsahující čárku
+jméno obsahující číslo na konci
+jméno s jinou diakritikou než přehlásky
 
 
 negativní testy
@@ -48,7 +51,13 @@ Johny12431325
 Petr_Pavel!
 Иван خخ
 "Karel'; DROP TABLE Users;--"
-
+  Karel  
+<pouze z mezery>
+Йan Jan
+<script>alert('XSS')</script>
+' OR '1'='1
+John[ZWSP]Doe (John​Doe)
+Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman
 
 
 popis negativních testů
@@ -64,8 +73,12 @@ nepovolená čísla
 nepovolené znaky _!
 nepodporované abecedy
 nepovolený SQL příkaz
-
-
-
+dvě mezery na začátku a na konci
+složené pouze z mezer
+kombinace různých abeced v jednom řetězci
+HTML kód jako jméno
+SQL Injection test
+jméno obsahující neviditelné Unicode znaky
+velmi dlouhé jméno přes povolený limit
 
 
