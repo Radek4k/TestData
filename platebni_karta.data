@@ -1,31 +1,51 @@
-Platební karta
+Platební karta (aktualizace v procesu)
 --------------
 
 
-Pozitivní testy (číslo karty	expirace	CVV kód)
-------------------------------------------------
-4263982640269299	02/2023	837
-374245455400126	01/2025	123
-60115564485789458	12/2023	458
-4263982640269299	02/2023	8374  (musí projít i 4 místný CVV)
+Pozitivní testy (vygenerované číslo karty, expirace,	CVV kód)
+--------------------------------------------------------------
+4893494553724224	11/2026	822   (VISA)
+371357414900231   11/2028 1726  (AMEX)
+6570992561068706	02/2030	107   (Discover)
+5316077471614988  12/2028 846   (MasterCard)
+
+(dá vyplnit i zkrácená verze expirace)
 
 
-Negativní testy
----------------
-_
-‘
-ahoj
-4263982640269299	02/2020	837   (stará expirace)
-426a982640269299	02/2023	837
-4263982640269299	02/2a23	837
-4263982640269299	02/2023	8a7
-4263982640269299	0a/2023	837
-371449635398432	03/2023	123  (nevalidní číslo karty)
-4263982640269299	02/2023	12
-4263982640269299	02/2023	12345
-(neplatný CVV kód)
-(platná karta, platný CVV kód, neplatná expirace)
+Negativní testy - nezávislé na číslech karty
+--------------------------------------------
+(_)
+#&@
+ahoj 
 <script>alert("Hello!");</script>@example.com
+
+Negativní testy - karta po expiraci
+----------------------------------- 
+4263982640269299	02/2020	837   (VISA - stará expirace)
+426a982640269299	02/2023	837   (VISA - stará expirace, chyba v čísle karty)
+4263982640269299	0a/2023	837   (VISA - stará expirace, chyba v měsíci)
+4263982640269299	02/2a23	837   (VISA - stará expirace, chyba v roce)
+4263982640269299	02/2023	8a7   (VISA - stará expirace, chyba v CVV)
+4263982640269299	02/2023	12    (VISA - stará expirace, příliš krátké CVV)
+4263982640269299	02/2023	12345 (VISA - stará expirace, příliš dlouhé CVV)
+371449635398432	  03/2023	123   (AMEX - nevalidní poslední číslo karty {Luhn})
+111111111111111   00/2020 12    (UATP - neplatné číslo karty {Luhn}, neplatná expirace i CVV - více chyb najednou)
+
+
+
+Negativní testy - platná karta
+------------------------------
+45941468631069444569  11/2029 411    (VISA - příliš dlouhé číslo karty – více než 19 číslic)
+4594 1468 6310 6944   11/2029 411    (VISA - číslo karty zadané s mezerami)
+4594-1468-6310-6944   11/2029 411    (VISA - číslo karty zadané s pomlčkami)
+4594146863106944      00/2029 411    (VISA - neplatný měsíc 00)
+4594146863106944      13/2029 411    (VISA - neplatný měsíc > 12)
+4594146863106944      11/29   411    (VISA - rok jen 2 číslice místo 4, pokud se vyplňuje pouze zkrácená verze, nebere se jako neg. test)
+4594146863106944      112029  411    (VISA - expirace bez lomítka MM/YYYY)
+4636879353186183      07/2030 542    (VISA - měsíc bez úvodní nuly  MM/YYYY)
+4594146863106944      11/2029 41 1   (VISA - mezera uvnitř CVV kódu)
+4594146863106944      11/2029 411'; DROP TABLE cards;--    (VISA - pokus o SQL injection v poli CVV)
+
 
 
 Popis a zdroje
@@ -36,5 +56,11 @@ https://developers.bluesnap.com/docs/test-credit-cards
 https://docs.checkout.com/testing/test-card-numbers
 https://www.usetreno.cz/cislo-kreditni-karty/
 https://www.prepostseo.com/tool/cs/credit-card-generator
+https://neapay.com/post/bin-list-range-for-mastercard-visa-amex-diners-discover-jcb-cup_94.html        (info o většině karet jak českých tak mezinárodních)
+https://www.iso.org/obp/ui/en/#iso:std:70484:en                                                        (ISO směrnice pro identifikaci karet)
+https://www.browserstack.com/free-tools/credit-card-number-generator                                   (Generátor náhodných druhů, čísel a vlastníků karet pro JSON, XML, CSV) 
+https://simplycalc.com/luhn-calculate.php                                                              (Kalkulačka na poslední/kontrolní číslo karty {Luhnův algoritmus})
 Tipy na další testy
 ověření limitů karty
+
+
