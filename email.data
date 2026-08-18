@@ -11,6 +11,7 @@ mail@neco.example.com
 mail@nic.neco.example.com
 a.nonymous@example.com
 testmail@háčkyčárky.cz
+test-pomlčky@a-také-diakritiky.cz
 
 
 **** chronologický popis jednotlivých řádků ****
@@ -23,6 +24,7 @@ email s doménou 3. řádu
 email s doménou 4. řádu
 email s tečkoou ve jménu
 email s českou diakritikou u domény 2. řádu
+email s českou diakritikou před zavináčem a pomlčky před i za zavináčem
 
 
 
